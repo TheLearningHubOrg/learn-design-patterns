@@ -2,9 +2,10 @@
   "name": "learn-design-patterns",
   "version": "1.0.0",
   "description": "An exhaustive, production-grade Gang of Four (GoF) & enterprise architectural design patterns masterclass.",
-  "main": "index.js",
+  "main": "src/index.mjs",
   "type": "module",
   "scripts": {
+    "start": "node src/index.mjs",
     "test": "node --test tests/design-patterns.test.mjs"
   },
   "keywords": [

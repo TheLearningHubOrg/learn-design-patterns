@@ -1,7 +1,5 @@
 node_modules/
 dist/
-coverage/
-.DS_Store
 *.log
-.env
-.env.local
+.DS_Store
+Thumbs.db
