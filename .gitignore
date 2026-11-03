@@ -1,5 +1,27 @@
-node_modules/
-dist/
+# Java / Kotlin
+target/
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+*.class
 *.log
+out/
+.kotlin/
+
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
 .DS_Store
 Thumbs.db
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Kept from the previous starter
+node_modules/
+dist/

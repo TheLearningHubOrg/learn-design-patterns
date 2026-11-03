@@ -1,0 +1,5 @@
+# Every text file is stored with LF in the repository.
+* text=auto eol=lf
+# Windows batch files need CRLF in the working tree to run under cmd.exe.
+*.bat text eol=crlf
+*.jar binary
